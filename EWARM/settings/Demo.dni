@@ -1,0 +1,105 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[Interrupts]
+Enabled=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1
+[StLinkDriver]
+CStepIntDis=_ 0
+stlinkserialNo=2798FD0D
+stlinkfoundProbes=
+[DebugChecksum]
+Checksum=-638839842
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[struct_types]
+Fmt0=Str_Calendar-DayOfMonth	4	0
+Fmt1=Str_Calendar-Hours	4	0
+Fmt2=Str_Calendar-Minutes	4	0
+Fmt3=Str_Calendar-Month	4	0
+Fmt4=Str_Calendar-Seconds	4	0
+Fmt5=Str_Calendar-Year	4	0
+[array_types]
+Fmt0=char[128]	4	0
+Fmt1=uint32_t[2]	4	0
+Fmt2=uint8_t[10]	4	0
+Fmt3=uint8_t[128]	4	0
+Fmt4=uint8_t[14]	4	0
+Fmt5=uint8_t[16]	4	0
+Fmt6=uint8_t[64]	4	0
+Fmt7=uint8_t[6]	4	0
+Fmt8=uint8_t[90]	4	0
+Fmt9=unsigned char[8]	4	0
+[watch_formats]
+Fmt0={W}1:AdcTem	3	0
+Fmt1={W}1:Batt_Vol	3	0
+Fmt2={W}1:LLIO_Dat	1	0
+Fmt3={W}1:Valve_State	4	0
+Fmt4={W}1:a	4	0
+Fmt5={W}1:b	4	0
+Fmt6={W}1:buf[offset + 9]	4	0
+Fmt7={W}1:c	4	0
+Fmt8={W}1:d	4	0
+Fmt9={W}1:e	4	0
+Fmt10={W}1:f	4	0
+Fmt11={W}1:g	4	0
+Fmt12={W}1:h	4	0
+Fmt13={W}1:rtc.Seconds	4	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "F:\桌面\IARDemo\startup\startup_hc32l136.s" "F:\桌面\NB\startup\startup_hc32l136.s"
+A1=_ "F:\桌面\NB\程序\source\main.c" ""
+A2=_ "G:\精诚公司\项目-许博源\NB无线水表\程序\NB\程序\startup\startup_hc32l136.s" ""
+A3=_ "G:\新科盛达\1---客户公司分类\6---宁波精诚\7---NB水表DEMO\1---程序\NB\程序\driver\src\interrupts_hc32l136.c" ""
+Count=4
+SuppressDialog=1

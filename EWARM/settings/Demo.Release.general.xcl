@@ -1,0 +1,13 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\bin\armstlink2.dll" 
+
+"G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Exe\Demo.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\bin\armbat.dll" 
+
+--flash_loader "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\flashloader\HC32L136.board" 
+
+
+
+

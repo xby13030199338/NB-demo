@@ -1,0 +1,773 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                23/Oct/2018  13:44:49
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Exe\Demo.out
+#    Map file     =  
+#        G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\List\Demo.map
+#    Command line =  
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\adc.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\adt.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\aes.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\APP_ADC.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\APP_EEPROM.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\APP_IIC.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\APP_LCD.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\APP_Lpuart0.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\APP_RTC.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\bgr.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\bt.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\Buzzer.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\Communication.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\crc.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\ddl.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\debug.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\dmac.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\FeedDog.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\flash.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\FlowMeasurement.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\gpio.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\hdiv.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\i2c.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\Interrupt_CallBack.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\interrupts_hc32l136.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\lcd.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\LCD_JC_IC.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\lpm.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\lpt.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\lpuart.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\lvd.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\main.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\Math_Lib.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\MechanicalButton.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\ModuleBoardProtocol.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\NBProtocol.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\opa.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\pca.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\pcnt.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\reset.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\rng.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\rtc.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\schedule.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\Sleep.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\SoftwareTimer.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\spi.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\startup_hc32l136.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\State.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\sysctrl.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\sysinit.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\system_hc32l136.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\timer3.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\trim.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\uart.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\Valve.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\Variable.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\vc.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\wdt.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\WM645.o"
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj\ZLG_Queue.o"
+#        -o
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Exe\Demo.out"
+#        --map
+#        "G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\List\Demo.map"
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.0\arm\config\hc32l136.icf" --semihosting --entry __iar_program_start
+#        --inline --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0000ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20001fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xc0
+  .intvec            ro code  0x00000000    0xc0  startup_hc32l136.o [1]
+                            - 0x000000c0    0xc0
+
+"P1":                                     0x6b54
+  .text              ro code  0x000000c0   0xa88  lpuart.o [1]
+  .text              ro code  0x00000b48    0x24  ABIassert.o [5]
+  .text              ro code  0x00000b6c   0x678  sysctrl.o [1]
+  .text              ro code  0x000011e4    0xe0  I32DivModFast.o [4]
+  .text              ro code  0x000012c4     0xa  abort.o [3]
+  .text              ro code  0x000012ce     0x2  startup_hc32l136.o [1]
+  .text              ro code  0x000012d0    0x38  system_hc32l136.o [1]
+  .text              ro code  0x00001308    0x5c  ABImemcpy.o [4]
+  .text              ro code  0x00001364    0x34  ABImemset.o [4]
+  .text              ro code  0x00001398    0x14  exit.o [5]
+  .text              ro code  0x000013ac   0x9e0  rtc.o [1]
+  .text              ro code  0x00001d8c   0x248  interrupts_hc32l136.o [1]
+  .text              ro code  0x00001fd4    0xb4  Interrupt_CallBack.o [1]
+  .text              ro code  0x00002088   0x10c  dmac.o [1]
+  .text              ro code  0x00002194   0x1e4  uart.o [1]
+  .text              ro code  0x00002378    0x24  spi.o [1]
+  .text              ro code  0x0000239c    0x24  i2c.o [1]
+  .text              ro code  0x000023c0   0x578  bt.o [1]
+  .text              ro code  0x00002938    0x10  lpt.o [1]
+  .text              ro code  0x00002948   0x210  adt.o [1]
+  .text              ro code  0x00002b58    0x10  pca.o [1]
+  .text              ro code  0x00002b68    0x48  wdt.o [1]
+  .text              ro code  0x00002bb0   0x368  adc.o [1]
+  .text              ro code  0x00002f18    0x10  pcnt.o [1]
+  .text              ro code  0x00002f28    0x6c  vc.o [1]
+  .text              ro code  0x00002f94    0x28  lvd.o [1]
+  .text              ro code  0x00002fbc    0x98  flash.o [1]
+  .text              ro code  0x00003054    0x10  trim.o [1]
+  .text              ro code  0x00003064   0x2d8  gpio.o [1]
+  .text              ro code  0x0000333c    0x3a  State.o [1]
+  .text              ro code  0x00003376     0x2  startup_hc32l136.o [1]
+  .text              ro code  0x00003378    0x74  APP_Lpuart0.o [1]
+  .text              ro code  0x000033ec   0x5f4  sysinit.o [1]
+  .text              ro code  0x000039e0   0x1b2  ZLG_Queue.o [1]
+  .text              ro code  0x00003b92     0x2  startup_hc32l136.o [1]
+  .text              ro code  0x00003b94    0x80  ddl.o [1]
+  .text              ro code  0x00003c14   0x444  lcd.o [1]
+  .text              ro code  0x00004058    0x14  uwrite4.o [4]
+  .text              ro code  0x0000406c    0x16  uread4.o [4]
+  .text              ro code  0x00004082     0x2  startup_hc32l136.o [1]
+  .text              ro code  0x00004084   0x998  WM645.o [1]
+  .text              ro code  0x00004a1c    0x28  memcmp.o [4]
+  .text              ro code  0x00004a44    0xaa  Math_Lib.o [1]
+  .text              ro code  0x00004aee    0x8c  APP_RTC.o [1]
+  .text              ro code  0x00004b7c   0x488  Valve.o [1]
+  .text              ro code  0x00005004   0x190  APP_ADC.o [1]
+  .text              ro code  0x00005194    0x60  Variable.o [1]
+  .text              ro code  0x000051f4    0xcc  Buzzer.o [1]
+  .text              ro code  0x000052c0    0xb4  rng.o [1]
+  .text              ro code  0x00005374    0xba  APP_EEPROM.o [1]
+  .text              ro code  0x0000542e   0x12e  APP_IIC.o [1]
+  .text              ro code  0x0000555c   0x480  LCD_JC_IC.o [1]
+  .text              ro code  0x000059dc   0x232  APP_LCD.o [1]
+  .text              ro code  0x00005c10   0x11c  MechanicalButton.o [1]
+  .text              ro code  0x00005d2c   0x29c  FlowMeasurement.o [1]
+  .rodata            const    0x00005fc8   0x124  rtc.o [1]
+  .text              ro code  0x000060ec   0x108  main.o [1]
+  .text              ro code  0x000061f4   0x100  schedule.o [1]
+  .rodata            const    0x000062f4    0xd0  rtc.o [1]
+  .rodata            const    0x000063c4    0xc0  lpuart.o [1]
+  .rodata            const    0x00006484    0x98  APP_LCD.o [1]
+  .rodata            const    0x0000651c    0x90  lpuart.o [1]
+  .rodata            const    0x000065ac    0x84  uart.o [1]
+  .rodata            const    0x00006630    0x70  lpuart.o [1]
+  .rodata            const    0x000066a0    0x6c  lpuart.o [1]
+  .rodata            const    0x0000670c    0x6c  rtc.o [1]
+  .rodata            const    0x00006778    0x50  lpuart.o [1]
+  .rodata            const    0x000067c8    0x50  rtc.o [1]
+  .rodata            const    0x00006818    0x50  uart.o [1]
+  .rodata            const    0x00006868    0x4c  bt.o [1]
+  .rodata            const    0x000068b4    0x4c  rtc.o [1]
+  .rodata            const    0x00006900    0x44  bt.o [1]
+  .text              ro code  0x00006944    0x3c  zero_init3.o [4]
+  .text              ro code  0x00006980    0x3c  packbits_init_single.o [4]
+  .rodata            const    0x000069bc    0x38  lpuart.o [1]
+  .rodata            const    0x000069f4    0x38  rtc.o [1]
+  .rodata            const    0x00006a2c    0x38  uart.o [1]
+  .text              ro code  0x00006a64    0x38  FeedDog.o [1]
+  .text              ro code  0x00006a9c    0x28  startup_hc32l136.o [1]
+  .text              ro code  0x00006ac4    0x28  data_init.o [4]
+  .iar.init_table    const    0x00006aec    0x20  - Linker created -
+  .rodata            const    0x00006b0c    0x1c  rtc.o [1]
+  .text              ro code  0x00006b28    0x1a  cmain.o [4]
+  .text              ro code  0x00006b42     0x8  exit.o [3]
+  .text              ro code  0x00006b4c     0xa  cexit.o [4]
+  .rodata            const    0x00006b58    0x18  APP_LCD.o [1]
+  .rodata            const    0x00006b70    0x18  rtc.o [1]
+  .rodata            const    0x00006b88    0x14  sysctrl.o [1]
+  .rodata            const    0x00006b9c     0xc  rtc.o [1]
+  .rodata            const    0x00006ba8     0xc  rtc.o [1]
+  .rodata            const    0x00006bb4     0xc  rtc.o [1]
+  .text              ro code  0x00006bc0     0xc  cstartup_M.o [4]
+  .rodata            const    0x00006bcc     0x8  Variable.o [1]
+  .rodata            const    0x00006bd4     0x4  sysctrl.o [1]
+  .rodata            const    0x00006bd8     0x4  Variable.o [1]
+  .rodata            const    0x00006bdc     0x0  zero_init3.o [4]
+  .rodata            const    0x00006bdc     0x0  packbits_init_single.o [4]
+  Initializer bytes  const    0x00006bdc    0x38  <for P2-1>
+                            - 0x00006c14  0x6b54
+
+"P2", part 1 of 3:                          0x86
+  P2-1                        0x20000000    0x86  <Init block>
+    .data            inited   0x20000000    0x38  lpuart.o [1]
+    .data            inited   0x20000038    0x10  main.o [1]
+    .data            inited   0x20000048     0x4  system_hc32l136.o [1]
+    .data            inited   0x2000004c    0x38  uart.o [1]
+    .data            inited   0x20000084     0x2  MechanicalButton.o [1]
+                            - 0x20000086    0x86
+
+"P2", part 2 of 3:                         0x100
+  CSTACK                      0x20000088   0x100  <Block>
+    CSTACK           uninit   0x20000088   0x100  <Block tail>
+                            - 0x20000188   0x100
+
+"P2", part 3 of 3:                         0x3f8
+  .bss               zero     0x20000188    0xc0  adt.o [1]
+  .bss               zero     0x20000248    0x84  main.o [1]
+  .bss               zero     0x200002cc    0x80  APP_Lpuart0.o [1]
+  .bss               zero     0x2000034c    0x80  APP_Lpuart0.o [1]
+  .bss               zero     0x200003cc    0x20  Buzzer.o [1]
+  .bss               zero     0x200003ec    0x20  Valve.o [1]
+  .bss               zero     0x2000040c    0x18  adc.o [1]
+  .bss               zero     0x20000424    0x14  Buzzer.o [1]
+  .bss               zero     0x20000438    0x14  FeedDog.o [1]
+  .bss               zero     0x2000044c    0x14  FlowMeasurement.o [1]
+  .bss               zero     0x20000460    0x14  LCD_JC_IC.o [1]
+  .bss               zero     0x20000474    0x14  MechanicalButton.o [1]
+  .bss               zero     0x20000488    0x14  Valve.o [1]
+  .bss               zero     0x2000049c    0x10  dmac.o [1]
+  .bss               zero     0x200004ac    0x10  Variable.o [1]
+  .bss               zero     0x200004bc    0x10  Variable.o [1]
+  .bss               zero     0x200004cc    0x10  Variable.o [1]
+  .bss               zero     0x200004dc     0xc  LCD_JC_IC.o [1]
+  .bss               zero     0x200004e8     0x8  rtc.o [1]
+  .bss               zero     0x200004f0     0x8  Variable.o [1]
+  .bss               zero     0x200004f8     0x8  Variable.o [1]
+  .bss               zero     0x20000500     0x4  bt.o [1]
+  .bss               zero     0x20000504     0x4  bt.o [1]
+  .bss               zero     0x20000508     0x4  bt.o [1]
+  .bss               zero     0x2000050c     0x4  Buzzer.o [1]
+  .bss               zero     0x20000510     0x4  FeedDog.o [1]
+  .bss               zero     0x20000514     0x4  flash.o [1]
+  .bss               zero     0x20000518     0x4  FlowMeasurement.o [1]
+  .bss               zero     0x2000051c     0x4  i2c.o [1]
+  .bss               zero     0x20000520     0x4  i2c.o [1]
+  .bss               zero     0x20000524     0x4  LCD_JC_IC.o [1]
+  .bss               zero     0x20000528     0x4  lpt.o [1]
+  .bss               zero     0x2000052c     0x4  lvd.o [1]
+  .bss               zero     0x20000530     0x4  MechanicalButton.o [1]
+  .bss               zero     0x20000534     0x4  pca.o [1]
+  .bss               zero     0x20000538     0x4  pcnt.o [1]
+  .bss               zero     0x2000053c     0x4  schedule.o [1]
+  .bss               zero     0x20000540     0x4  schedule.o [1]
+  .bss               zero     0x20000544     0x4  schedule.o [1]
+  .bss               zero     0x20000548     0x4  spi.o [1]
+  .bss               zero     0x2000054c     0x4  spi.o [1]
+  .bss               zero     0x20000550     0x4  trim.o [1]
+  .bss               zero     0x20000554     0x4  Valve.o [1]
+  .bss               zero     0x20000558     0x4  Variable.o [1]
+  .bss               zero     0x2000055c     0x4  Variable.o [1]
+  .bss               zero     0x20000560     0x4  vc.o [1]
+  .bss               zero     0x20000564     0x4  vc.o [1]
+  .bss               zero     0x20000568     0x4  wdt.o [1]
+  .bss               zero     0x2000056c     0x1  Buzzer.o [1]
+  .bss               zero     0x2000056d     0x1  FeedDog.o [1]
+  .bss               zero     0x2000056e     0x1  FlowMeasurement.o [1]
+  .bss               zero     0x2000056f     0x1  FlowMeasurement.o [1]
+  .bss               zero     0x20000570     0x1  LCD_JC_IC.o [1]
+  .bss               zero     0x20000571     0x1  LCD_JC_IC.o [1]
+  .bss               zero     0x20000572     0x1  LCD_JC_IC.o [1]
+  .bss               zero     0x20000573     0x1  MechanicalButton.o [1]
+  .bss               zero     0x20000574     0x1  MechanicalButton.o [1]
+  .bss               zero     0x20000575     0x1  schedule.o [1]
+  .bss               zero     0x20000576     0x1  Valve.o [1]
+  .bss               zero     0x20000577     0x1  Valve.o [1]
+  .bss               zero     0x20000578     0x1  Valve.o [1]
+  .bss               zero     0x20000579     0x1  Valve.o [1]
+  .bss               zero     0x2000057a     0x1  Valve.o [1]
+  .bss               zero     0x2000057b     0x1  Valve.o [1]
+  .bss               zero     0x2000057c     0x1  Valve.o [1]
+  .bss               zero     0x2000057d     0x1  Variable.o [1]
+  .bss               zero     0x2000057e     0x1  Variable.o [1]
+  .bss               zero     0x2000057f     0x1  Variable.o [1]
+                            - 0x20000580   0x3f8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x3f8:
+          0x20000188  0x3f8
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x38 (41% of destination):
+          0x00006bdc   0x38
+    1 destination range, total size 0x86:
+          0x20000000   0x86
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj: [1]
+    APP_ADC.o                   400
+    APP_EEPROM.o                186
+    APP_IIC.o                   302
+    APP_LCD.o                   562      176
+    APP_Lpuart0.o               116               256
+    APP_RTC.o                   140
+    Buzzer.o                    204                57
+    FeedDog.o                    56                25
+    FlowMeasurement.o           668                26
+    Interrupt_CallBack.o        180
+    LCD_JC_IC.o               1 152                39
+    Math_Lib.o                  170
+    MechanicalButton.o          284        1       28
+    State.o                      58
+    Valve.o                   1 160                63
+    Variable.o                   96       12       75
+    WM645.o                   2 456
+    ZLG_Queue.o                 434
+    adc.o                       872                24
+    adt.o                       528               192
+    bt.o                      1 400      144       12
+    ddl.o                       128
+    dmac.o                      268                16
+    flash.o                     152                 4
+    gpio.o                      728
+    i2c.o                        36                 8
+    interrupts_hc32l136.o       584
+    lcd.o                     1 092
+    lpt.o                        16                 4
+    lpuart.o                  2 696      715       56
+    lvd.o                        40                 4
+    main.o                      264        7      148
+    pca.o                        16                 4
+    pcnt.o                       16                 4
+    rng.o                       180
+    rtc.o                     2 528      908        8
+    schedule.o                  256                13
+    spi.o                        36                 8
+    startup_hc32l136.o          240
+    sysctrl.o                 1 656       24
+    sysinit.o                 1 524
+    system_hc32l136.o            56        1        4
+    trim.o                       16                 4
+    uart.o                      484      292       56
+    vc.o                        108                 8
+    wdt.o                        72                 4
+    -------------------------------------------------
+    Total:                   24 616    2 280    1 150
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    abort.o                      10
+    exit.o                        8
+    -------------------------------------------------
+    Total:                       18
+
+rt6M_tl.a: [4]
+    ABImemcpy.o                  92
+    ABImemset.o                  52
+    I32DivModFast.o             224
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    memcmp.o                     40
+    packbits_init_single.o       60
+    uread4.o                     22
+    uwrite4.o                    20
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      658
+
+shb_l.a: [5]
+    ABIassert.o                  36
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       56
+
+    Gaps                          6        2
+    Linker created                        32      256
+-----------------------------------------------------
+    Grand Total:             25 354    2 314    1 406
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x00006aec          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00006b0c          --   Gb  - Linker created -
+?main                   0x00006b29         Code  Gb  cmain.o [4]
+Accounting_Management   0x00005e7b   0x76  Code  Gb  FlowMeasurement.o [1]
+Adc_ConfigSglChannel    0x00002eb9   0x1e  Code  Gb  adc.o [1]
+Adc_ConfigSglMode       0x00002e7d   0x28  Code  Gb  adc.o [1]
+Adc_DeInit              0x00002d3f   0xe6  Code  Gb  adc.o [1]
+Adc_Disable             0x00002e61    0xe  Code  Gb  adc.o [1]
+Adc_Enable              0x00002e4d    0xe  Code  Gb  adc.o [1]
+Adc_GetSglResult        0x00002ef9   0x1a  Code  Gb  adc.o [1]
+Adc_IRQHandler          0x00002bb1   0xf0  Code  Gb  adc.o [1]
+Adc_Init                0x00002cad   0x92  Code  Gb  adc.o [1]
+Adc_SGL_Start           0x00002e2d    0xe  Code  Gb  adc.o [1]
+Adc_SGL_Stop            0x00002e3b    0xe  Code  Gb  adc.o [1]
+Adt_IRQHandler          0x00002949  0x1fc  Code  Gb  adt.o [1]
+Batt_Vol                0x2000057d    0x1  Data  Gb  Variable.o [1]
+BatterVolCheck          0x00005019   0xbe  Code  Gb  APP_ADC.o [1]
+Bcd_To_Bin_Bit32        0x00004a99   0x56  Code  Gb  Math_Lib.o [1]
+BroadcastId             0x00006bcc    0x8  Data  Gb  Variable.o [1]
+Bt_ClearIntFlag         0x0000241b   0x4e  Code  Gb  bt.o [1]
+Bt_GetIntFlag           0x000023c1   0x5a  Code  Gb  bt.o [1]
+Bt_M0_ARRSet            0x00002891   0x82  Code  Gb  bt.o [1]
+Bt_M0_Cnt16Set          0x00002805   0x84  Code  Gb  bt.o [1]
+Bt_M0_Run               0x00002749   0x4e  Code  Gb  bt.o [1]
+Bt_M0_Stop              0x000027a1   0x4e  Code  Gb  bt.o [1]
+Bt_Mode0_EnableIrq      0x00002469   0x4e  Code  Gb  bt.o [1]
+Bt_Mode0_Init           0x000024f5  0x248  Code  Gb  bt.o [1]
+Button                  0x00005c75   0x92  Code  Gb  MechanicalButton.o [1]
+ButtonDat               0x20000573    0x1  Data  Lc  MechanicalButton.o [1]
+ButtonTaskTcb           0x20000474   0x14  Data  Gb  MechanicalButton.o [1]
+Button_Task             0x00005c1d   0x58  Code  Gb  MechanicalButton.o [1]
+BuzzerTaskTcb           0x20000424   0x14  Data  Gb  Buzzer.o [1]
+Buzzer_Q_Init           0x000051f5   0x10  Code  Gb  Buzzer.o [1]
+Buzzer_Task             0x00005221   0x8c  Code  Gb  Buzzer.o [1]
+CSTACK$$Base            0x20000088          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000188          --   Gb  - Linker created -
+Change_DateTimeFormat   0x00001701   0x18  Code  Gb  rtc.o [1]
+Check_BCD_Format        0x00001835   0x30  Code  Gb  rtc.o [1]
+ClkTrim_IRQHandler      0x00003055    0xc  Code  Gb  trim.o [1]
+Close_Valve             0x00004b7d   0x14  Code  Gb  Valve.o [1]
+Cnst_Month_Tbl          0x00006bb4    0xc  Data  Gb  rtc.o [1]
+Count_CheckSum          0x00004a79   0x20  Code  Gb  Math_Lib.o [1]
+CtrBuzzer               0x200003cc   0x20  Data  Lc  Buzzer.o [1]
+CtrValve                0x200003ec   0x20  Data  Lc  Valve.o [1]
+CtsIntCallBack          0x00002079    0x2  Code  Gb  Interrupt_CallBack.o [1]
+Delay_ms                0x00004a5b   0x1e  Code  Gb  Math_Lib.o [1]
+Delay_us                0x00004a45   0x16  Code  Gb  Math_Lib.o [1]
+Disable_ADC             0x00005005   0x14  Code  Gb  APP_ADC.o [1]
+Disable_Valve           0x00004ba5   0x14  Code  Gb  Valve.o [1]
+Dma_IRQHandler          0x00002089   0xfa  Code  Gb  dmac.o [1]
+EEPROM_ReadSDA          0x0000545f   0x14  Code  Gb  APP_IIC.o [1]
+EEPROM_SCL_HIGH         0x00005473    0xc  Code  Gb  APP_IIC.o [1]
+EEPROM_SCL_LOW          0x0000547f    0xc  Code  Gb  APP_IIC.o [1]
+EEPROM_SDA_HIGH         0x0000548b    0xc  Code  Gb  APP_IIC.o [1]
+EEPROM_SDA_LOW          0x00005497    0xc  Code  Gb  APP_IIC.o [1]
+EEPROM_SendByte         0x000054f1   0x6c  Code  Gb  APP_IIC.o [1]
+EEPROM_Start_IIc        0x000054a3   0x2c  Code  Gb  APP_IIC.o [1]
+EEPROM_Stop_IIc         0x000054cf   0x22  Code  Gb  APP_IIC.o [1]
+EFM_Display             0x00006484   0x98  Data  Gb  APP_LCD.o [1]
+EFM_Numbers             0x00006b58   0x18  Data  Gb  APP_LCD.o [1]
+Eeprom_Vcc_Ds           0x00005453    0xc  Code  Gb  APP_IIC.o [1]
+Eeprom_Vcc_En           0x00005447    0xc  Code  Gb  APP_IIC.o [1]
+Eeprom_Wp_Ds            0x0000543b    0xc  Code  Gb  APP_IIC.o [1]
+Eeprom_Wp_En            0x0000542f    0xc  Code  Gb  APP_IIC.o [1]
+EfRam_IRQHandler        0x00002fbd    0xc  Code  Gb  flash.o [1]
+EnableNvic              0x00001e51   0x36  Code  Gb  interrupts_hc32l136.o [1]
+EquipmentID             0x200004f0    0x8  Data  Gb  Variable.o [1]
+ErrIntCallback          0x00002075    0x2  Code  Gb  Interrupt_CallBack.o [1]
+Flash_WaitCycle         0x00002fcd   0x74  Code  Gb  flash.o [1]
+FluxMeasureTcb          0x2000044c   0x14  Data  Gb  FlowMeasurement.o [1]
+FluxStateMachine        0x2000057f    0x1  Data  Gb  Variable.o [1]
+Flux_Measure            0x00005d57  0x124  Code  Gb  FlowMeasurement.o [1]
+Flux_Measure_Task       0x00005d2d   0x2a  Code  Gb  FlowMeasurement.o [1]
+GPIO_Init               0x00003463  0x1c8  Code  Gb  sysinit.o [1]
+Get_Button              0x00005c11    0x6  Code  Gb  MechanicalButton.o [1]
+Get_Month_Max_Day       0x000017f1   0x30  Code  Gb  rtc.o [1]
+Gpio_ClearIrq           0x000032f1   0x18  Code  Gb  gpio.o [1]
+Gpio_ClrIO              0x000031a3   0x18  Code  Gb  gpio.o [1]
+Gpio_EnableIrq          0x000032bd   0x1e  Code  Gb  gpio.o [1]
+Gpio_GetInputIO         0x0000317b   0x10  Code  Gb  gpio.o [1]
+Gpio_GetIrqStatus       0x000032db   0x10  Code  Gb  gpio.o [1]
+Gpio_IRQHandler         0x00001fd5   0x50  Code  Gb  Interrupt_CallBack.o [1]
+Gpio_Init               0x00003065  0x116  Code  Gb  gpio.o [1]
+Gpio_SetAfMode          0x000031d3   0x18  Code  Gb  gpio.o [1]
+Gpio_SetAnalogMode      0x000031bb   0x18  Code  Gb  gpio.o [1]
+Gpio_SetIO              0x0000318b   0x18  Code  Gb  gpio.o [1]
+HardFault_Handler       0x00001e87    0xe  Code  Gb  interrupts_hc32l136.o [1]
+I2c_IRQHandler          0x0000239d   0x1a  Code  Gb  i2c.o [1]
+IRQ000_Handler          0x00001e95    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ001_Handler          0x00001e9f    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ002_Handler          0x00001ea9    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ003_Handler          0x00001eb3    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ004_Handler          0x00001ebd    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ005_Handler          0x00001f35    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ006_Handler          0x00001ec7    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ007_Handler          0x00001ed1    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ008_Handler          0x00001edb    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ009_Handler          0x00001ee5    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ010_Handler          0x00001eef    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ011_Handler          0x00001ef9    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ012_Handler          0x00001f03    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ013_Handler          0x00001f0d    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ014_Handler          0x00001f17    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ015_Handler          0x00001f21    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ016_Handler          0x00001f2b    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ017_Handler          0x00001f3f    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ018_Handler          0x00001f49    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ019_Handler          0x00001f53    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ020_Handler          0x00001f5d    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ021_Handler          0x00001f67    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ022_Handler          0x00001f71    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ023_Handler          0x00001f7b    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ024_Handler          0x00001f85    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ025_Handler          0x00001f8f    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ026_Handler          0x00001f99    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ027_Handler          0x00001fa3    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ028_Handler          0x00001fad    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ029_Handler          0x00001fb7    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ030_Handler          0x00001fc1    0xa  Code  Gb  interrupts_hc32l136.o [1]
+IRQ031_Handler          0x00001fcb    0xa  Code  Gb  interrupts_hc32l136.o [1]
+LCDTaskTcb              0x20000460   0x14  Data  Gb  LCD_JC_IC.o [1]
+LCD_Alarm_State         0x000055b7   0x3c  Code  Gb  LCD_JC_IC.o [1]
+LCD_ClearDisp           0x00003f2d   0x26  Code  Gb  lcd.o [1]
+LCD_Config              0x0000385d  0x17a  Code  Gb  sysinit.o [1]
+LCD_Dis_num             0x00005acd   0x40  Code  Gb  APP_LCD.o [1]
+LCD_EnFunc              0x00003d53   0x50  Code  Gb  lcd.o [1]
+LCD_GetSegCom           0x00003de9   0xca  Code  Gb  lcd.o [1]
+LCD_Init                0x00003fb5   0x84  Code  Gb  lcd.o [1]
+LCD_Loop                0x00005587   0x30  Code  Gb  LCD_JC_IC.o [1]
+LCD_Page_0              0x000055f3  0x27e  Code  Gb  LCD_JC_IC.o [1]
+LCD_Page_1              0x00005895  0x12e  Code  Gb  LCD_JC_IC.o [1]
+LCD_SelBiasSrc          0x00003c3b   0x3e  Code  Gb  lcd.o [1]
+LCD_SelCpClk            0x00003ceb   0x34  Code  Gb  lcd.o [1]
+LCD_SelScanClk          0x00003d1f   0x34  Code  Gb  lcd.o [1]
+LCD_SetBias             0x00003cb7   0x34  Code  Gb  lcd.o [1]
+LCD_SetClkSrc           0x00003c15   0x26  Code  Gb  lcd.o [1]
+LCD_SetDispMode         0x00003da3   0x36  Code  Gb  lcd.o [1]
+LCD_SetDuty             0x00003c79   0x3e  Code  Gb  lcd.o [1]
+LCD_SetSegCom           0x00003eb3   0x7a  Code  Gb  lcd.o [1]
+LCD_Task                0x0000555d   0x2a  Code  Gb  LCD_JC_IC.o [1]
+LCD_WriteRam            0x00003f53   0x58  Code  Gb  lcd.o [1]
+LPUartDeInitNvic        0x00000a09   0x4c  Code  Lc  lpuart.o [1]
+LPUartGetInternDataPtr  0x0000016f   0x36  Code  Lc  lpuart.o [1]
+LPUartInitNvic          0x000009b3   0x4c  Code  Lc  lpuart.o [1]
+LPUart_CalScnt          0x00000619   0xa6  Code  Gb  lpuart.o [1]
+LPUart_ClrStatus        0x000007cd   0xd6  Code  Gb  lpuart.o [1]
+LPUart_EnableFunc       0x00000705   0xae  Code  Gb  lpuart.o [1]
+LPUart_EnableIrq        0x000001a5  0x100  Code  Gb  lpuart.o [1]
+LPUart_GetSclk          0x00000361   0x7e  Code  Gb  lpuart.o [1]
+LPUart_Init             0x00000a59   0xd8  Code  Gb  lpuart.o [1]
+LPUart_ReceiveData      0x000008a5   0x46  Code  Gb  lpuart.o [1]
+LPUart_SelSclk          0x000002bd   0x9c  Code  Gb  lpuart.o [1]
+LPUart_SetBaud          0x000006bf   0x42  Code  Gb  lpuart.o [1]
+LPUart_SetClkDiv        0x000005bd   0x56  Code  Gb  lpuart.o [1]
+LPUart_SetMMDOrCk       0x000004e9   0x5c  Code  Gb  lpuart.o [1]
+LPUart_SetMode          0x000003e5   0x90  Code  Gb  lpuart.o [1]
+LPUart_SetMultiMode     0x00000475   0x72  Code  Gb  lpuart.o [1]
+LPUart_SetStopBit       0x00000555   0x64  Code  Gb  lpuart.o [1]
+LcdState                0x200004dc    0xc  Data  Lc  LCD_JC_IC.o [1]
+Lcd_Dis_Num             0x00005b0d  0x102  Code  Gb  APP_LCD.o [1]
+Lcd_Displaydigit        0x00005a5f   0x64  Code  Gb  APP_LCD.o [1]
+Leap_Month_Base         0x00006b9c    0xc  Data  Gb  rtc.o [1]
+LpTim_IRQHandler        0x00002939    0xc  Code  Gb  lpt.o [1]
+LpUart_IRQHandler       0x000008f5   0xbe  Code  Gb  lpuart.o [1]
+Lpuart0Rx               0x2000034c   0x80  Data  Lc  APP_Lpuart0.o [1]
+Lpuart0Tx               0x200002cc   0x80  Data  Lc  APP_Lpuart0.o [1]
+Lpuart0_Init            0x000036d7   0xde  Code  Gb  sysinit.o [1]
+Lpuart0_Q_Init          0x00003379   0x1c  Code  Gb  APP_Lpuart0.o [1]
+Lpuart0_Rx              0x0000339f   0x10  Code  Gb  APP_Lpuart0.o [1]
+Lpuart0_Tx              0x000033af   0x32  Code  Gb  APP_Lpuart0.o [1]
+Lpuart0_Tx_Init         0x00003395    0xa  Code  Gb  APP_Lpuart0.o [1]
+Lvd_IRQHandler          0x00002f95   0x20  Code  Gb  lvd.o [1]
+M24C16_Array_Write      0x00005375   0xba  Code  Gb  APP_EEPROM.o [1]
+MultiRate               0x200004bc   0x10  Data  Gb  Variable.o [1]
+Multistep_Fee           0x00005ef1   0xae  Code  Gb  FlowMeasurement.o [1]
+NVIC_ClearPendingIRQ    0x00001da9    0xe  Code  Lc  interrupts_hc32l136.o [1]
+NVIC_ClearPendingIRQ    0x000000dd    0xe  Code  Lc  lpuart.o [1]
+NVIC_DisableIRQ         0x00001d9b    0xe  Code  Lc  interrupts_hc32l136.o [1]
+NVIC_DisableIRQ         0x000000cf    0xe  Code  Lc  lpuart.o [1]
+NVIC_EnableIRQ          0x00001d8d    0xe  Code  Lc  interrupts_hc32l136.o [1]
+NVIC_EnableIRQ          0x000000c1    0xe  Code  Lc  lpuart.o [1]
+NVIC_SetPriority        0x00001db7   0x84  Code  Lc  interrupts_hc32l136.o [1]
+NVIC_SetPriority        0x000000eb   0x84  Code  Lc  lpuart.o [1]
+NewMultiRate            0x200004cc   0x10  Data  Gb  Variable.o [1]
+NonLeap_Month_Base      0x00006ba8    0xc  Data  Gb  rtc.o [1]
+Open_Valve              0x00004b91   0x14  Code  Gb  Valve.o [1]
+PErrIntCallBack         0x00002077    0x2  Code  Gb  Interrupt_CallBack.o [1]
+Padding_Buzzer_Q        0x00005205   0x1c  Code  Gb  Buzzer.o [1]
+Padding_Valve_Comm      0x00004bc9   0x64  Code  Gb  Valve.o [1]
+PassWord                0x00006bd8    0x4  Data  Gb  Variable.o [1]
+Pca_IRQHandler          0x00002b59    0xc  Code  Gb  pca.o [1]
+Pcnt_IRQHandler         0x00002f19    0xa  Code  Gb  pcnt.o [1]
+Perform_Valve_Task      0x00004ce1  0x302  Code  Gb  Valve.o [1]
+RTC_Get_Calendar        0x00004b45   0x36  Code  Gb  APP_RTC.o [1]
+RTC_Init                0x0000362b   0xac  Code  Gb  sysinit.o [1]
+RTC_Init_Calendar       0x00004aef   0x56  Code  Gb  APP_RTC.o [1]
+R_State                 0x0000335d   0x1a  Code  Gb  State.o [1]
+RechargeRecord          0x200004f8    0x8  Data  Gb  Variable.o [1]
+Region$$Table$$Base     0x00006aec          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00006b0c          --   Gb  - Linker created -
+Resolve_Node_645        0x00004085  0x998  Code  Gb  WM645.o [1]
+Rng_GetData             0x00005363    0x4  Code  Gb  rng.o [1]
+Rng_Init                0x000052c1   0xa2  Code  Gb  rng.o [1]
+RtcAlarmCb              0x00002031    0x2  Code  Gb  Interrupt_CallBack.o [1]
+RtcCycCb                0x00002025    0xc  Code  Gb  Interrupt_CallBack.o [1]
+RtcGetInternDataCb      0x00001c85    0x4  Code  Lc  rtc.o [1]
+Rtc_CalWeek             0x00001739   0xb8  Code  Gb  rtc.o [1]
+Rtc_CheckDateTimeFormat
+                        0x00001865  0x170  Code  Gb  rtc.o [1]
+Rtc_CheckLeapYear       0x00001719   0x20  Code  Gb  rtc.o [1]
+Rtc_ClrIrqStatus        0x00001c29   0x58  Code  Gb  rtc.o [1]
+Rtc_DisableFunc         0x00001665   0x8a  Code  Gb  rtc.o [1]
+Rtc_EnAlarmIrq          0x00001bdd   0x2c  Code  Gb  rtc.o [1]
+Rtc_EnableFunc          0x000015c9   0x8c  Code  Gb  rtc.o [1]
+Rtc_IRQHandler          0x00001d25   0x52  Code  Gb  rtc.o [1]
+Rtc_Init                0x00001c95   0x90  Code  Gb  rtc.o [1]
+Rtc_ReadDateTime        0x00001add   0xfc  Code  Gb  rtc.o [1]
+Rtc_SelClk              0x000013ad   0x72  Code  Gb  rtc.o [1]
+Rtc_SetAlarmTime        0x0000151f   0x98  Code  Gb  rtc.o [1]
+Rtc_SetAmPm             0x000014eb   0x34  Code  Gb  rtc.o [1]
+Rtc_SetCyc              0x0000141f   0xcc  Code  Gb  rtc.o [1]
+Rtc_WriteDateTime       0x000019dd   0xf8  Code  Gb  rtc.o [1]
+RxIntCallback           0x00002061   0x14  Code  Gb  Interrupt_CallBack.o [1]
+SCHTaskCreate           0x0000623b   0x68  Code  Gb  schedule.o [1]
+SCHTaskSchedStart       0x000062a3   0x40  Code  Gb  schedule.o [1]
+SCHTimeTick             0x000061f5   0x46  Code  Gb  schedule.o [1]
+SegmentLCD_Char         0x000059dd   0x3e  Code  Gb  APP_LCD.o [1]
+SegmentLCD_Pic          0x00005a1b   0x44  Code  Gb  APP_LCD.o [1]
+Set_Button              0x00005c17    0x6  Code  Gb  MechanicalButton.o [1]
+Spi_IRQHandler          0x00002379   0x1a  Code  Gb  spi.o [1]
+SysClk_Init             0x000033ed   0x76  Code  Gb  sysinit.o [1]
+SysState                0x20000558    0x4  Data  Gb  Variable.o [1]
+Sys_Software_Init       0x00005195   0x38  Code  Gb  Variable.o [1]
+Sys_Task_Create         0x000060ed   0x46  Code  Gb  main.o [1]
+Sysctrl_ClkInit         0x00000fb9   0x6e  Code  Gb  sysctrl.o [1]
+Sysctrl_ClkSourceEnable
+                        0x00000b7b  0x146  Code  Gb  sysctrl.o [1]
+Sysctrl_GetHClkFreq     0x00000df1  0x186  Code  Gb  sysctrl.o [1]
+Sysctrl_GetPClkFreq     0x00000f77   0x1a  Code  Gb  sysctrl.o [1]
+Sysctrl_SetHCLKDiv      0x0000112b   0x28  Code  Gb  sysctrl.o [1]
+Sysctrl_SetPCLKDiv      0x00001153   0x28  Code  Gb  sysctrl.o [1]
+Sysctrl_SetPLLStableTime
+                        0x00000d7b   0x24  Code  Gb  sysctrl.o [1]
+Sysctrl_SetPeripheralGate
+                        0x0000117b   0x3a  Code  Gb  sysctrl.o [1]
+Sysctrl_SetRCHTrim      0x00001027   0xa4  Code  Gb  sysctrl.o [1]
+Sysctrl_SetRCLStableTime
+                        0x00000d35   0x24  Code  Gb  sysctrl.o [1]
+Sysctrl_SetRCLTrim      0x000010dd   0x4e  Code  Gb  sysctrl.o [1]
+Sysctrl_SetXTHStableTime
+                        0x00000d13   0x22  Code  Gb  sysctrl.o [1]
+Sysctrl_SetXTLStableTime
+                        0x00000d59   0x22  Code  Gb  sysctrl.o [1]
+Sysctrl_SysClkSwitch    0x00000d9f   0x2a  Code  Gb  sysctrl.o [1]
+Sysctrl_XTHDriverConfig
+                        0x00000cc1   0x1c  Code  Gb  sysctrl.o [1]
+Sysctrl_XTLDriverConfig
+                        0x00000cdd   0x36  Code  Gb  sysctrl.o [1]
+SystemCoreClock         0x20000048    0x4  Data  Gb  system_hc32l136.o [1]
+SystemCoreClockUpdate   0x000012d1    0xc  Code  Gb  system_hc32l136.o [1]
+SystemInit              0x000012dd   0x20  Code  Gb  system_hc32l136.o [1]
+TaskNumberSum           0x20000575    0x1  Data  Lc  schedule.o [1]
+Tim0Int                 0x00002033   0x26  Code  Gb  Interrupt_CallBack.o [1]
+Tim_IRQHandler          0x000024c9   0x2c  Code  Gb  bt.o [1]
+Timer0_Init             0x000037b5   0x88  Code  Gb  sysinit.o [1]
+TxIntCallback           0x00002059    0x8  Code  Gb  Interrupt_CallBack.o [1]
+UartGetInternDataPtr    0x00002195   0x36  Code  Lc  uart.o [1]
+Uart_ClrStatus          0x000021d1   0xd8  Code  Gb  uart.o [1]
+Uart_IRQHandler         0x000022ad   0xbe  Code  Gb  uart.o [1]
+ValveAnglePassing       0x20000577    0x1  Data  Lc  Valve.o [1]
+ValveCommandPassing     0x20000576    0x1  Data  Lc  Valve.o [1]
+ValvePara               0x2000055c    0x4  Data  Gb  Variable.o [1]
+ValveTaskTcb            0x20000488   0x14  Data  Gb  Valve.o [1]
+Valve_Current_Measure   0x000050d7   0xb4  Code  Gb  APP_ADC.o [1]
+Valve_Q_Init            0x00004bb9   0x10  Code  Gb  Valve.o [1]
+Valve_State             0x2000057e    0x1  Data  Gb  Variable.o [1]
+Valve_Task              0x00004c2d   0x9a  Code  Gb  Valve.o [1]
+Vc_IRQHandler           0x00002f29   0x5e  Code  Gb  vc.o [1]
+WMData                  0x200004ac   0x10  Data  Gb  Variable.o [1]
+W_State                 0x0000333d   0x20  Code  Gb  State.o [1]
+W_Valve_State           0x000051cd    0xe  Code  Gb  Variable.o [1]
+W_WMData                0x000051db    0xe  Code  Gb  Variable.o [1]
+WatchDogCount           0x2000056d    0x1  Data  Gb  FeedDog.o [1]
+WatchDogTaskTcb         0x20000438   0x14  Data  Gb  FeedDog.o [1]
+Watch_Dog_Task          0x00006a65   0x2c  Code  Gb  FeedDog.o [1]
+Wdt_IRQHandler          0x00002b7f   0x24  Code  Gb  wdt.o [1]
+Wdt_Start               0x00002b69   0x16  Code  Gb  wdt.o [1]
+_GpioEnableIrq          0x000031eb   0xc8  Code  Lc  gpio.o [1]
+_SysctrlUnlock          0x00000b6d    0xe  Code  Lc  sysctrl.o [1]
+__aeabi_assert          0x00000b49   0x24  Code  Gb  ABIassert.o [5]
+__aeabi_idiv            0x00001211         Code  Gb  I32DivModFast.o [4]
+__aeabi_idivmod         0x00001211         Code  Gb  I32DivModFast.o [4]
+__aeabi_memclr4         0x00001395         Code  Gb  ABImemset.o [4]
+__aeabi_memclr8         0x00001395         Code  Gb  ABImemset.o [4]
+__aeabi_memcpy          0x00001309         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4         0x00001331         Code  Wk  ABImemcpy.o [4]
+__aeabi_uidiv           0x00001217         Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod        0x00001217         Code  Gb  I32DivModFast.o [4]
+__aeabi_uread4          0x0000406d         Code  Gb  uread4.o [4]
+__aeabi_uwrite4         0x00004059         Code  Gb  uwrite4.o [4]
+__cmain                 0x00006b29         Code  Gb  cmain.o [4]
+__exit                  0x00001399   0x14  Code  Gb  exit.o [5]
+__iar_Memset4_word      0x00001365         Code  Gb  ABImemset.o [4]
+__iar_data_init3        0x00006ac5   0x28  Code  Gb  data_init.o [4]
+__iar_packbits_init_single3
+                        0x00006981   0x3c  Code  Gb  packbits_init_single.o [4]
+__iar_program_start     0x00006bc1         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x00006945   0x3c  Code  Gb  zero_init3.o [4]
+__vector_table          0x00000000         Data  Gb  startup_hc32l136.o [1]
+_call_main              0x00006b35         Code  Gb  cmain.o [4]
+_exit                   0x00006b4d         Code  Gb  cexit.o [4]
+_main                   0x00006b3f         Code  Gb  cmain.o [4]
+abort                   0x000012c5    0xa  Code  Gb  abort.o [3]
+ddl_memclr              0x00003b95   0x1a  Code  Gb  ddl.o [1]
+delay100us              0x00003baf   0x4e  Code  Gb  ddl.o [1]
+exit                    0x00006b43    0x8  Code  Gb  exit.o [3]
+g_u8SchedTicksCnt       0x20000544    0x4  Data  Gb  schedule.o [1]
+lpuarttx                0x20000248   0x84  Data  Gb  main.o [1]
+m_astcLPUartInstanceDataLut
+                        0x20000000   0x38  Data  Lc  lpuart.o [1]
+m_astcUartInstanceDataLut
+                        0x2000004c   0x38  Data  Lc  uart.o [1]
+main                    0x00006133   0x84  Code  Gb  main.o [1]
+memcmp                  0x00004a1d   0x28  Code  Gb  memcmp.o [4]
+pCurTCB                 0x20000540    0x4  Data  Gb  schedule.o [1]
+pFirstTCB               0x2000053c    0x4  Data  Gb  schedule.o [1]
+pfnAdtIrqCbk            0x20000188   0xc0  Data  Lc  adt.o [1]
+pfnFlashCallback        0x20000514    0x4  Data  Lc  flash.o [1]
+pfnI2c0tCallback        0x2000051c    0x4  Data  Lc  i2c.o [1]
+pfnI2c1tCallback        0x20000520    0x4  Data  Lc  i2c.o [1]
+pfnLpTimCallback        0x20000528    0x4  Data  Lc  lpt.o [1]
+pfnLvdIrqCbk            0x2000052c    0x4  Data  Lc  lvd.o [1]
+pfnPcaCallback          0x20000534    0x4  Data  Lc  pca.o [1]
+pfnPcntCallback         0x20000538    0x4  Data  Lc  pcnt.o [1]
+pfnSpi0Callback         0x20000548    0x4  Data  Lc  spi.o [1]
+pfnSpi1Callback         0x2000054c    0x4  Data  Lc  spi.o [1]
+pfnTim0Callback         0x20000500    0x4  Data  Lc  bt.o [1]
+pfnTim1Callback         0x20000504    0x4  Data  Lc  bt.o [1]
+pfnTim2Callback         0x20000508    0x4  Data  Lc  bt.o [1]
+pfnTrimCallback         0x20000550    0x4  Data  Lc  trim.o [1]
+pfnVc0IrqCb             0x20000560    0x4  Data  Lc  vc.o [1]
+pfnVc1IrqCb             0x20000564    0x4  Data  Lc  vc.o [1]
+pfnWdtCallback          0x20000568    0x4  Data  Lc  wdt.o [1]
+queueCreate             0x000039e1   0x64  Code  Gb  ZLG_Queue.o [1]
+queueFlush              0x00003b65   0x2e  Code  Gb  ZLG_Queue.o [1]
+queueNData              0x00003b4b   0x1a  Code  Gb  ZLG_Queue.o [1]
+queueRead               0x00003a45   0x78  Code  Gb  ZLG_Queue.o [1]
+queueWrite              0x00003abd   0x8e  Code  Gb  ZLG_Queue.o [1]
+stcAdcIrqCalbaks        0x2000040c   0x18  Data  Lc  adc.o [1]
+stcDmaIrqCalbaks        0x2000049c   0x10  Data  Lc  dmac.o [1]
+stcRtcIrqCb             0x200004e8    0x8  Data  Lc  rtc.o [1]
+tem                     0x20000038   0x10  Data  Gb  main.o [1]
+
+
+[1] = G:\精诚公司\项目-许博源\NB系列表\NB(3)\NB\程序\EWARM\output\release\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  25 354 bytes of readonly  code memory
+   2 314 bytes of readonly  data memory
+   1 406 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
